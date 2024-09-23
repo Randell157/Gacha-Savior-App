@@ -1,11 +1,13 @@
-
-import Button from "./components/Button";
-
+import Footer from "./components/Footer";
+import Header from "./components/header";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div>
-      <Button color="primary" onClick={() => console.log("Clicked")}>MyButton</Button>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
